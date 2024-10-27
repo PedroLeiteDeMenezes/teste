@@ -1,0 +1,21 @@
+{
+  "name": "nome-do-projeto",
+  "version": "1.0.0",
+  "description": "Descrição do projeto",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "migrate": "npm run build && npx sequelize-cli db:migrate --config dist/config/database.js"
+  },
+  "dependencies": {
+    "sequelize": "^6.3.5",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "@types/node": "^16.0.0",
+    "@types/sequelize": "^4.28.10",
+    "sequelize-cli": "^6.2.0"
+  }
+}

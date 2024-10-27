@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "root",
+    "password": "geladeira2017*",
+    "database": "todo",
+    "host": "localhost",
+    "dialect": "mariadb",
+    "port": 3008,
+    "migrations-path": "src/database/migrations"  
+  },
+  "test": {
+    "username": "root",
+    "password": "geladeira2017*",
+    "database": "todo_test",
+    "host": "localhost",
+    "dialect": "mariadb",
+    "port": 3008,
+    "migrations-path": "src/database/migrations"  
+  },
+  "production": {
+    "username": "root",
+    "password": "geladeira2017*",
+    "database": "todo",
+    "host": "localhost",
+    "dialect": "mariadb",
+    "port": 3008,
+    "migrations-path": "src/database/migrations"  
+  }
+}
